@@ -1,5 +1,8 @@
 ## **Chatbot Assistant - Appointment**
 
+![Init Architecture](init_arch.png)
+
+
 ### **Prerequisites :**
 1. **Set up Open AI key and additional resource in .env files.**
    - Fill out all the necessary key.
