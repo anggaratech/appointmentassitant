@@ -4,9 +4,9 @@ WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-RUN export OPENAI_API_KEY=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
-ENV OPENAI_API_KEY=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
-RUN echo "$OPENAI_API_KEY"
+RUN export OPENAI_KEY=YOUR_OPENAI_KEY
+ENV OPENAI_KEY=YOUR_OPENAI_KEY
+RUN echo "OPENAI_KEY"
 
 COPY . /app
 
